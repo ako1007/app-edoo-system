@@ -1,0 +1,83 @@
+body {
+  margin-left: 4% !important;
+}
+
+.side_bar_main:hover {
+  transition: .3s ease;
+  background-color: rgb(17 24 39) !important;
+  width: 15% !important;
+
+  .offcanvas-header {
+    display: block;
+
+    p {
+      display: none;
+    }
+  }
+
+  .offcanvas-body {
+    display: block;
+  }
+
+  .sideBar_border {
+    border-top: 1px solid white;
+  }
+
+  .input-group-text {
+    background-color: rgb(48, 50, 58) !important;
+  }
+
+  h5 {
+    transition: 2s;
+    color: white;
+    font-size: 35px!important;
+    margin-left: 20%;
+  }
+
+  input {
+    background-color: rgb(48, 50, 58);
+  }
+
+  a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    left: 25%;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  button {
+    padding-left: 10%;
+    padding-right: 59%;
+    background-color: rgb(17 24 39);
+    border: none;
+
+    svg {
+      position: relative;
+      right: 25%;
+    }
+  }
+
+  button:hover {
+    background-color: #4646f3;
+  }
+}
+
+.side_bar_main {
+  width: 4% !important;
+  background-color: rgb(17 24 39) !important;
+
+  .offcanvas-header {
+    display: none;
+  }
+
+  .offcanvas-body {
+    overflow: hidden !important;
+    display: none;
+  }
+}
